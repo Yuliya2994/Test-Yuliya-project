@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A491A95E28F6C950006B859A /* Test_Yuliya_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A95D28F6C950006B859A /* Test_Yuliya_projectApp.swift */; };
+		A491A96028F6C950006B859A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A95F28F6C950006B859A /* ContentView.swift */; };
+		A491A96228F6C950006B859A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491A96128F6C950006B859A /* Assets.xcassets */; };
+		A491A96528F6C950006B859A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A491A96428F6C950006B859A /* Preview Assets.xcassets */; };
+		A491A96F28F6C950006B859A /* Test_Yuliya_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A96E28F6C950006B859A /* Test_Yuliya_projectTests.swift */; };
+		A491A97928F6C950006B859A /* Test_Yuliya_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A97828F6C950006B859A /* Test_Yuliya_projectUITests.swift */; };
+		A491A97B28F6C950006B859A /* Test_Yuliya_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A491A97A28F6C950006B859A /* Test_Yuliya_projectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A491A96B28F6C950006B859A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A491A95228F6C94F006B859A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A491A95928F6C950006B859A;
+			remoteInfo = "Test Yuliya project";
+		};
+		A491A97528F6C950006B859A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A491A95228F6C94F006B859A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A491A95928F6C950006B859A;
+			remoteInfo = "Test Yuliya project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A491A95A28F6C950006B859A /* Test Yuliya project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Yuliya project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A491A95D28F6C950006B859A /* Test_Yuliya_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Yuliya_projectApp.swift; sourceTree = "<group>"; };
+		A491A95F28F6C950006B859A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A491A96128F6C950006B859A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A491A96428F6C950006B859A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A491A96A28F6C950006B859A /* Test Yuliya projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Yuliya projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A491A96E28F6C950006B859A /* Test_Yuliya_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Yuliya_projectTests.swift; sourceTree = "<group>"; };
+		A491A97428F6C950006B859A /* Test Yuliya projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Yuliya projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A491A97828F6C950006B859A /* Test_Yuliya_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Yuliya_projectUITests.swift; sourceTree = "<group>"; };
+		A491A97A28F6C950006B859A /* Test_Yuliya_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Yuliya_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A491A95728F6C950006B859A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A96728F6C950006B859A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A97128F6C950006B859A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A491A95128F6C94F006B859A = {
+			isa = PBXGroup;
+			children = (
+				A491A95C28F6C950006B859A /* Test Yuliya project */,
+				A491A96D28F6C950006B859A /* Test Yuliya projectTests */,
+				A491A97728F6C950006B859A /* Test Yuliya projectUITests */,
+				A491A95B28F6C950006B859A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A491A95B28F6C950006B859A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A491A95A28F6C950006B859A /* Test Yuliya project.app */,
+				A491A96A28F6C950006B859A /* Test Yuliya projectTests.xctest */,
+				A491A97428F6C950006B859A /* Test Yuliya projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A491A95C28F6C950006B859A /* Test Yuliya project */ = {
+			isa = PBXGroup;
+			children = (
+				A491A95D28F6C950006B859A /* Test_Yuliya_projectApp.swift */,
+				A491A95F28F6C950006B859A /* ContentView.swift */,
+				A491A96128F6C950006B859A /* Assets.xcassets */,
+				A491A96328F6C950006B859A /* Preview Content */,
+			);
+			path = "Test Yuliya project";
+			sourceTree = "<group>";
+		};
+		A491A96328F6C950006B859A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A491A96428F6C950006B859A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A491A96D28F6C950006B859A /* Test Yuliya projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A491A96E28F6C950006B859A /* Test_Yuliya_projectTests.swift */,
+			);
+			path = "Test Yuliya projectTests";
+			sourceTree = "<group>";
+		};
+		A491A97728F6C950006B859A /* Test Yuliya projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A491A97828F6C950006B859A /* Test_Yuliya_projectUITests.swift */,
+				A491A97A28F6C950006B859A /* Test_Yuliya_projectUITestsLaunchTests.swift */,
+			);
+			path = "Test Yuliya projectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A491A95928F6C950006B859A /* Test Yuliya project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A491A97E28F6C950006B859A /* Build configuration list for PBXNativeTarget "Test Yuliya project" */;
+			buildPhases = (
+				A491A95628F6C950006B859A /* Sources */,
+				A491A95728F6C950006B859A /* Frameworks */,
+				A491A95828F6C950006B859A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Yuliya project";
+			productName = "Test Yuliya project";
+			productReference = A491A95A28F6C950006B859A /* Test Yuliya project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A491A96928F6C950006B859A /* Test Yuliya projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A491A98128F6C950006B859A /* Build configuration list for PBXNativeTarget "Test Yuliya projectTests" */;
+			buildPhases = (
+				A491A96628F6C950006B859A /* Sources */,
+				A491A96728F6C950006B859A /* Frameworks */,
+				A491A96828F6C950006B859A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A491A96C28F6C950006B859A /* PBXTargetDependency */,
+			);
+			name = "Test Yuliya projectTests";
+			productName = "Test Yuliya projectTests";
+			productReference = A491A96A28F6C950006B859A /* Test Yuliya projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A491A97328F6C950006B859A /* Test Yuliya projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A491A98428F6C950006B859A /* Build configuration list for PBXNativeTarget "Test Yuliya projectUITests" */;
+			buildPhases = (
+				A491A97028F6C950006B859A /* Sources */,
+				A491A97128F6C950006B859A /* Frameworks */,
+				A491A97228F6C950006B859A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A491A97628F6C950006B859A /* PBXTargetDependency */,
+			);
+			name = "Test Yuliya projectUITests";
+			productName = "Test Yuliya projectUITests";
+			productReference = A491A97428F6C950006B859A /* Test Yuliya projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A491A95228F6C94F006B859A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A491A95928F6C950006B859A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A491A96928F6C950006B859A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A491A95928F6C950006B859A;
+					};
+					A491A97328F6C950006B859A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A491A95928F6C950006B859A;
+					};
+				};
+			};
+			buildConfigurationList = A491A95528F6C94F006B859A /* Build configuration list for PBXProject "Test Yuliya project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A491A95128F6C94F006B859A;
+			productRefGroup = A491A95B28F6C950006B859A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A491A95928F6C950006B859A /* Test Yuliya project */,
+				A491A96928F6C950006B859A /* Test Yuliya projectTests */,
+				A491A97328F6C950006B859A /* Test Yuliya projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A491A95828F6C950006B859A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A491A96528F6C950006B859A /* Preview Assets.xcassets in Resources */,
+				A491A96228F6C950006B859A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A96828F6C950006B859A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A97228F6C950006B859A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A491A95628F6C950006B859A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A491A96028F6C950006B859A /* ContentView.swift in Sources */,
+				A491A95E28F6C950006B859A /* Test_Yuliya_projectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A96628F6C950006B859A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A491A96F28F6C950006B859A /* Test_Yuliya_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A491A97028F6C950006B859A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A491A97928F6C950006B859A /* Test_Yuliya_projectUITests.swift in Sources */,
+				A491A97B28F6C950006B859A /* Test_Yuliya_projectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A491A96C28F6C950006B859A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A491A95928F6C950006B859A /* Test Yuliya project */;
+			targetProxy = A491A96B28F6C950006B859A /* PBXContainerItemProxy */;
+		};
+		A491A97628F6C950006B859A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A491A95928F6C950006B859A /* Test Yuliya project */;
+			targetProxy = A491A97528F6C950006B859A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A491A97C28F6C950006B859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A491A97D28F6C950006B859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A491A97F28F6C950006B859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test Yuliya project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Test-Yuliya-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A491A98028F6C950006B859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test Yuliya project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Test-Yuliya-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A491A98228F6C950006B859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Test-Yuliya-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Yuliya project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test Yuliya project";
+			};
+			name = Debug;
+		};
+		A491A98328F6C950006B859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Test-Yuliya-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Yuliya project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test Yuliya project";
+			};
+			name = Release;
+		};
+		A491A98528F6C950006B859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Test-Yuliya-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Yuliya project";
+			};
+			name = Debug;
+		};
+		A491A98628F6C950006B859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Test-Yuliya-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Yuliya project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A491A95528F6C94F006B859A /* Build configuration list for PBXProject "Test Yuliya project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A491A97C28F6C950006B859A /* Debug */,
+				A491A97D28F6C950006B859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A491A97E28F6C950006B859A /* Build configuration list for PBXNativeTarget "Test Yuliya project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A491A97F28F6C950006B859A /* Debug */,
+				A491A98028F6C950006B859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A491A98128F6C950006B859A /* Build configuration list for PBXNativeTarget "Test Yuliya projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A491A98228F6C950006B859A /* Debug */,
+				A491A98328F6C950006B859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A491A98428F6C950006B859A /* Build configuration list for PBXNativeTarget "Test Yuliya projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A491A98528F6C950006B859A /* Debug */,
+				A491A98628F6C950006B859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A491A95228F6C94F006B859A /* Project object */;
+}
